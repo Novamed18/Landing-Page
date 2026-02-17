@@ -258,7 +258,7 @@ const Hero = () => {
           <motion.div
             animate={{ y: [0, -10, 0] }}
             transition={{ repeat: Infinity, duration: 4, ease: 'easeInOut' }}
-            className="bg-rose-100 absolute -bottom-8 -left-4 flex max-w-[200px] items-center gap-3 rounded-2xl p-4 shadow-lg md:left-10"
+            className="bg-rose-100 absolute -bottom-8 -left-4 hidden md:flex max-w-[200px] items-center gap-3 rounded-2xl p-4 shadow-lg md:left-10"
           >
             <div className="rounded-full bg-red-100 p-2 text-red-600">
               <Sparkles size={20} />
@@ -278,7 +278,7 @@ const Hero = () => {
               ease: 'easeInOut',
               delay: 0.5,
             }}
-            className="bg-sky-100 absolute -top-4 -right-4 flex max-w-[200px] items-center gap-3 rounded-2xl p-4 shadow-lg md:-right-8"
+            className="bg-sky-100 absolute -top-4 -right-4 hidden md:flex max-w-[200px] items-center gap-3 rounded-2xl p-4 shadow-lg md:-right-8"
           >
             <div className="rounded-full bg-blue-100 p-2 text-blue-600">
               <Users size={20} />
@@ -685,7 +685,7 @@ export const Footer = () => {
       icon: '📸', 
       label: 'Instagram', 
       href: 'https://instagram.com/novamedingenieria',
-      text: '@novamedingenieria'
+      text: '@novamedingenieri      className="px-4 md:px-12 py-6 md:py-12"a'
     },
   ];
 
